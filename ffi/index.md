@@ -11,13 +11,18 @@ Using FFI involve mapping types, usually C types, to Rust, aswell as
 adapting to the calling conventions and name mangling to locate
 symbols in shared libraries.
 
+Lot of languages, Python, C#, Ruby and even JavaScript in NodeJS offer
+some sort of "CType" API that facilitate calling external functions
+using C calling convention, like system API. Rust isn't foreign to
+that idea.
 
 
 
 References
 ----------
 
-* [Rust FFI Ominbus](http://jakegoulding.com/rust-ffi-omnibus/): a
-collection of FFI examples compiled by Jake Goulding.
-
+* [Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/): a
+  collection of FFI examples compiled by Jake Goulding.
+* [Rust book: Foreign Function Interface](https://doc.rust-lang.org/book/ffi.html):
+  the official documentation on Rust FFI.
 
